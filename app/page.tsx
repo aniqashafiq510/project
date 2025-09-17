@@ -1,11 +1,13 @@
 import Button from '@/components/button'
+import ProfileCard from '@/components/ProfileCard'
 import React from 'react'
 
-const Fruits = [
+
+{/*const Fruits = [
   {name: "Apple", id : 1 },
   {name: "Mango", id : 2 },
   {name: "Grapes", id : 3 }
-]
+]*/}
 
 // const user = {
 //   name: 'Aniqa',
@@ -14,8 +16,17 @@ const Fruits = [
 // }
 export default function page() {
   // const isLoggedin = true;
+  
+  
   return (
     <div> 
+
+      <ProfileCard
+      name=  "Aniqa"
+      age = {21}
+      onlineStatus = {true}
+      
+      />
 {/* key is given to track that which element is changed or called, it should be unique */}
       {/* {Fruits.map(fruit => (
         <div key={fruit.id}>
@@ -24,11 +35,14 @@ export default function page() {
           </p>
         </div>
       ))} */}
-      <Button/>
+      {/* <Button/> */}
       {/* {<p>{user.name}</p>
       } */}
 
      {/* {isLoggedin?  <Button/>: 'Please Login to continue!'} */}
+
+
+
     </div>
     
   )
