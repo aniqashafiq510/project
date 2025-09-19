@@ -1,6 +1,6 @@
-import Button from '@/components/button'
-import ProfileCard from '@/components/ProfileCard'
+
 import React from 'react'
+import Counter from '@/components/Counter'
 
 
 {/*const Fruits = [
@@ -21,12 +21,15 @@ export default function page() {
   return (
     <div> 
 
-      <ProfileCard
+
+      <Counter/>
+
+      {/* <ProfileCard
       name=  "Aniqa"
       age = {21}
       onlineStatus = {true}
       
-      />
+      /> */}
 {/* key is given to track that which element is changed or called, it should be unique */}
       {/* {Fruits.map(fruit => (
         <div key={fruit.id}>
