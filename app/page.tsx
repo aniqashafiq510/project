@@ -1,6 +1,7 @@
 
+import Input from '@/components/Input'
 import React from 'react'
-import Counter from '@/components/Counter'
+
 
 
 {/*const Fruits = [
@@ -22,7 +23,7 @@ export default function page() {
     <div> 
 
 
-      <Counter/>
+      <Input/>
 
       {/* <ProfileCard
       name=  "Aniqa"
