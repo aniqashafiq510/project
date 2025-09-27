@@ -22,7 +22,7 @@ export default function page() {
   return (
     <div> 
 
-
+      
       <Input/>
 
       {/* <ProfileCard
