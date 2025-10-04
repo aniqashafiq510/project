@@ -1,5 +1,6 @@
 
-import Input from '@/components/Input'
+import UserProfile from '@/state management/Profile'
+import Reducer from '@/state management/Reducer'
 import React from 'react'
 
 
@@ -23,7 +24,8 @@ export default function page() {
     <div> 
 
       
-      <Input/>
+      <UserProfile/>
+      <Reducer/>
 
       {/* <ProfileCard
       name=  "Aniqa"
